@@ -118,6 +118,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/chris/Documents/f110-2019-a/chris/gabor_ws/build/gtest/cmake_install.cmake")
   include("/home/chris/Documents/f110-2019-a/chris/gabor_ws/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/chris/Documents/f110-2019-a/chris/gabor_ws/build/gabor_runtime_monitoring/cmake_install.cmake")
 
 endif()
 
