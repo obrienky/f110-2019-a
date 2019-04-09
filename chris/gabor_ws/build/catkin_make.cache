@@ -1,0 +1,2 @@
+beginner_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/chris/Documents/f110-2019-a/chris/gabor_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chris/Documents/f110-2019-a/chris/gabor_ws/install -G Unix Makefiles
