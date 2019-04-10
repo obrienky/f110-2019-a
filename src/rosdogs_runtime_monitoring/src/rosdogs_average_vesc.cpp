@@ -1,4 +1,4 @@
-#include "team_a_average_vesc.hpp"
+#include "rosdogs_average_vesc.hpp"
 
 
 AverageVescNode::AverageVescNode(ros::NodeHandle* nodeHandle) {
@@ -42,7 +42,7 @@ void AverageVescNode::VescCallback(const vesc_msgs::VescStateStamped& msg) {
 
 
 int main(int argc, char** argv) {
-	ros::init(argc, argv, "team_a_average_vesc");
+	ros::init(argc, argv, "rosdogs_average_vesc");
 	ros::NodeHandle nh;
 	AverageVescNode node(&nh);
 
