@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>team_a_runtime_monitoring</name>
+  <name>rosdogs_runtime_monitoring</name>
   <version>0.0.0</version>
   <description>The rosdogs_runtime_monitoring package</description>
 
