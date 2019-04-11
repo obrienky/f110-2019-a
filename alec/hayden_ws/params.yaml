@@ -1,0 +1,12 @@
+background_b: 255
+background_g: 86
+background_r: 150
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_yotbox__42935: 'http://YotBox:42935/'}
+rosversion: '1.14.3
+
+  '
+run_id: dceff932-5b2f-11e9-8a7c-acfdce00f456
