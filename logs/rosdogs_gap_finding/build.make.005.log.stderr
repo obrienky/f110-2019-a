@@ -1,0 +1,20 @@
+In file included from [01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:1:0[m[K:
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.hpp:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   Eigen::Vector2f center;
+[01;32m[K   ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.hpp:31:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+ }
+[01;32m[K ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.hpp:36:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+   vector<radial_gap> gaps;
+[01;32m[K   ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.hpp:33:1:[m[K [01;31m[Kerror: [m[Knew types may not be defined in a return type
+ class gap_bag{
+[01;32m[K ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.hpp:33:1:[m[K [01;36m[Knote: [m[K(perhaps a semicolon is missing after the definition of ‘[01m[Kgap_bag[m[K’)
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:6:53:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+ FindGapNode::FindGapNode(ros::NodeHandle* nodeHandle) {
+[01;32m[K                                                     ^[m[K
+make[2]: *** [CMakeFiles/rosdogs_find_gap.dir/src/rosdogs_find_gap.cpp.o] Error 1
+make[1]: *** [CMakeFiles/rosdogs_find_gap.dir/all] Error 2
+make: *** [all] Error 2

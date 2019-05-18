@@ -1,0 +1,8 @@
+Symlinking /home/lappy/f110-2019-a/devel/./setup.sh
+Symlinking /home/lappy/f110-2019-a/devel/./setup.bash
+Symlinking /home/lappy/f110-2019-a/devel/./setup.zsh
+Symlinking /home/lappy/f110-2019-a/devel/./_setup_util.py
+Symlinking /home/lappy/f110-2019-a/devel/./env.sh
+Symlinking /home/lappy/f110-2019-a/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/lappy/f110-2019-a/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/lappy/f110-2019-a/devel/lib/pkgconfig/catkin_tools_prebuild.pc

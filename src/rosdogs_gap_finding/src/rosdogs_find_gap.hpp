@@ -21,3 +21,20 @@ private:
 	void LidarCallback(const sensor_msgs::LaserScan& msg);
 
 };
+
+class RadialGap{
+	public:
+		RadialGap(float start, float end, float r);
+		~RadialGap();
+		float th_start;
+		float th_end;
+		float radius;
+		geometry_msgs::Vector3 center;
+
+};
+
+class GapBag{
+	public:
+		int num_gaps;
+		std::vector<RadialGap> gaps;
+};

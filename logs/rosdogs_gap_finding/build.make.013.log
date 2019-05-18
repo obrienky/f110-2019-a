@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target rosdogs_find_gap[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rosdogs_find_gap.dir/src/rosdogs_find_gap.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/lappy/f110-2019-a/devel/.private/rosdogs_gap_finding/lib/rosdogs_gap_finding/rosdogs_find_gap[0m
+[100%] Built target rosdogs_find_gap

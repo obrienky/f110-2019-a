@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target rosdogs_find_gap[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rosdogs_find_gap.dir/src/rosdogs_find_gap.cpp.o[0m
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:[m[K In constructor ‘[01m[KRadialGap::RadialGap(float, float, float)[m[K’:
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:77:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kth_cent[m[K’ was not declared in this scope
+     th_cent = th_end - th_start;
+[01;32m[K     ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+     x = r*cos(th_cent);
+[01;32m[K     ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:79:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope
+     y = r*cos(th_cent);
+[01;32m[K     ^[m[K
+CMakeFiles/rosdogs_find_gap.dir/build.make:62: recipe for target 'CMakeFiles/rosdogs_find_gap.dir/src/rosdogs_find_gap.cpp.o' failed
+make[2]: *** [CMakeFiles/rosdogs_find_gap.dir/src/rosdogs_find_gap.cpp.o] Error 1
+CMakeFiles/Makefile2:739: recipe for target 'CMakeFiles/rosdogs_find_gap.dir/all' failed
+make[1]: *** [CMakeFiles/rosdogs_find_gap.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

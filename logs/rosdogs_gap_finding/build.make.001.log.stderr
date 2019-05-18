@@ -1,0 +1,7 @@
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:[m[K In member function ‘[01m[Kvoid FindGapNode::LidarCallback(const LaserScan&)[m[K’:
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:61:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::Publisher[m[K’ has no member named ‘[01m[Kz[m[K’
+     centerPub.z = 0;
+[01;32m[K               ^[m[K
+make[2]: *** [CMakeFiles/rosdogs_find_gap.dir/src/rosdogs_find_gap.cpp.o] Error 1
+make[1]: *** [CMakeFiles/rosdogs_find_gap.dir/all] Error 2
+make: *** [all] Error 2

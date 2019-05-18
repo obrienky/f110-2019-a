@@ -1,0 +1,5 @@
+system/joystick_drivers/joy
+/home/lappy/f110-2019-a/devel/.private/joy/share/joy/cmake/joyConfig-version.cmake /home/lappy/f110-2019-a/devel/share/joy/cmake/joyConfig-version.cmake
+/home/lappy/f110-2019-a/devel/.private/joy/share/joy/cmake/joyConfig.cmake /home/lappy/f110-2019-a/devel/share/joy/cmake/joyConfig.cmake
+/home/lappy/f110-2019-a/devel/.private/joy/lib/joy/joy_node /home/lappy/f110-2019-a/devel/lib/joy/joy_node
+/home/lappy/f110-2019-a/devel/.private/joy/lib/pkgconfig/joy.pc /home/lappy/f110-2019-a/devel/lib/pkgconfig/joy.pc

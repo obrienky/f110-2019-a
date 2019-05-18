@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/lappy/f110-2019-a/devel/include",
+        "/opt/ros/kinetic/include",
+        "/home/lappy/f110-2019-a/src/system/racecar/ackermann_cmd_mux/include",
+        "/home/lappy/f110-2019-a/src/system/hokuyo_node/include",
+        "/home/lappy/f110-2019-a/src/system/serial/include",
+        "/home/lappy/f110-2019-a/src/system/vesc/vesc_ackermann/include",
+        "/home/lappy/f110-2019-a/src/system/vesc/vesc_driver/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}

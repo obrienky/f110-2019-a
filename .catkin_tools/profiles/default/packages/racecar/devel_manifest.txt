@@ -1,0 +1,4 @@
+system/racecar/racecar
+/home/lappy/f110-2019-a/devel/.private/racecar/share/racecar/cmake/racecarConfig.cmake /home/lappy/f110-2019-a/devel/share/racecar/cmake/racecarConfig.cmake
+/home/lappy/f110-2019-a/devel/.private/racecar/share/racecar/cmake/racecarConfig-version.cmake /home/lappy/f110-2019-a/devel/share/racecar/cmake/racecarConfig-version.cmake
+/home/lappy/f110-2019-a/devel/.private/racecar/lib/pkgconfig/racecar.pc /home/lappy/f110-2019-a/devel/lib/pkgconfig/racecar.pc

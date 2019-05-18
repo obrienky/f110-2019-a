@@ -1,0 +1,4 @@
+labs/lab_pure_pursuit
+/home/lappy/f110-2019-a/devel/.private/lab_pure_pursuit/share/lab_pure_pursuit/cmake/lab_pure_pursuitConfig-version.cmake /home/lappy/f110-2019-a/devel/share/lab_pure_pursuit/cmake/lab_pure_pursuitConfig-version.cmake
+/home/lappy/f110-2019-a/devel/.private/lab_pure_pursuit/share/lab_pure_pursuit/cmake/lab_pure_pursuitConfig.cmake /home/lappy/f110-2019-a/devel/share/lab_pure_pursuit/cmake/lab_pure_pursuitConfig.cmake
+/home/lappy/f110-2019-a/devel/.private/lab_pure_pursuit/lib/pkgconfig/lab_pure_pursuit.pc /home/lappy/f110-2019-a/devel/lib/pkgconfig/lab_pure_pursuit.pc

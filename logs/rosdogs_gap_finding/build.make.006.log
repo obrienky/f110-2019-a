@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target rosdogs_find_gap[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rosdogs_find_gap.dir/src/rosdogs_find_gap.cpp.o[0m
+In file included from [01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:1:0[m[K:
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.hpp:8:17:[m[K [01;31m[Kfatal error: [m[KEigen: No such file or directory
+compilation terminated.
+CMakeFiles/rosdogs_find_gap.dir/build.make:62: recipe for target 'CMakeFiles/rosdogs_find_gap.dir/src/rosdogs_find_gap.cpp.o' failed
+CMakeFiles/Makefile2:739: recipe for target 'CMakeFiles/rosdogs_find_gap.dir/all' failed
+make[2]: *** [CMakeFiles/rosdogs_find_gap.dir/src/rosdogs_find_gap.cpp.o] Error 1
+make[1]: *** [CMakeFiles/rosdogs_find_gap.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

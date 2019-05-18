@@ -1,0 +1,49 @@
+In file included from [01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:1:0[m[K:
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.hpp:36:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kradial_gap[m[K’ was not declared in this scope
+   std::vector<radial_gap> gaps;
+[01;32m[K               ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.hpp:36:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   std::vector<radial_gap> gaps;
+[01;32m[K                         ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.hpp:36:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:73:1:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[KRadialGap::RadialGap(float, float, float)[m[K’ does not match any in class ‘[01m[KRadialGap[m[K’
+ RadialGap::RadialGap(float start, float end, float r){}
+[01;32m[K ^[m[K
+In file included from [01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:1:0[m[K:
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.hpp:25:7:[m[K [01;31m[Kerror: [m[Kcandidates are: RadialGap::RadialGap(const RadialGap&)
+ class RadialGap{
+[01;32m[K       ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.hpp:25:7:[m[K [01;31m[Kerror: [m[K                RadialGap::RadialGap()
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kth_start[m[K’ does not name a type
+     th_start = start;
+[01;32m[K     ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:75:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kth_end[m[K’ does not name a type
+     th_end = end;
+[01;32m[K     ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:76:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kradius[m[K’ does not name a type
+     radius = r;
+[01;32m[K     ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:77:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kth_cent[m[K’ does not name a type
+     th_cent = th_end - th_start;
+[01;32m[K     ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ does not name a type
+     x = r*cos(th_cent);
+[01;32m[K     ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:79:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ does not name a type
+     y = r*cos(th_cent);
+[01;32m[K     ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcenter[m[K’ does not name a type
+     center.x = x;
+[01;32m[K     ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:81:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcenter[m[K’ does not name a type
+     center.y = y;
+[01;32m[K     ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:82:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcenter[m[K’ does not name a type
+     center.z = 0;
+[01;32m[K     ^[m[K
+[01m[K/home/lappy/f110-2019-a/src/rosdogs_gap_finding/src/rosdogs_find_gap.cpp:84:23:[m[K [01;31m[Kerror: [m[Kdefinition of implicitly-declared ‘[01m[KRadialGap::~RadialGap()[m[K’
+ RadialGap::~RadialGap(){}
+[01;32m[K                       ^[m[K
+make[2]: *** [CMakeFiles/rosdogs_find_gap.dir/src/rosdogs_find_gap.cpp.o] Error 1
+make[1]: *** [CMakeFiles/rosdogs_find_gap.dir/all] Error 2
+make: *** [all] Error 2

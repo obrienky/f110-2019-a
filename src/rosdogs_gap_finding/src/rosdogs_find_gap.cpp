@@ -20,7 +20,6 @@ void FindGapNode::initializePublishers() {
 	// gapPub = nh.advertise<>("lidar_gaps", 10);
 	centerPub = nh.advertise<geometry_msgs::Vector3>("gap_center", 10);
 }
-
 void FindGapNode::LidarCallback(const sensor_msgs::LaserScan& msg) {
     float cone_ang = M_PI_2;        //one sided angle of scans considered
     int scan_num = 5;               //number of passes for search
@@ -57,10 +56,9 @@ void FindGapNode::LidarCallback(const sensor_msgs::LaserScan& msg) {
     center.y = radius_max*sin(offset_angle);
     center.z = 0;
     
-    //centerPub = center;
-    centerPub.z = 0;
+    centerPub.publish(center);
 
-}
+}//lidar callback
 
 int main(int argc, char** argv) {
 	ros::init(argc, argv, "find_gap");
@@ -71,3 +69,17 @@ int main(int argc, char** argv) {
 
 	return 0;
 }
+
+RadialGap::RadialGap(float start, float end, float r){
+    th_start = start;
+    th_end = end;
+    radius = r;
+    float th_cent = th_end - th_start;
+    float x = r*cos(th_cent);
+    float y = r*cos(th_cent);
+    center.x = x;
+    center.y = y;
+    center.z = 0;
+};
+
+RadialGap::~RadialGap(){}

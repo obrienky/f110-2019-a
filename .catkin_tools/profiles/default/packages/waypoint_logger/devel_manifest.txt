@@ -1,0 +1,4 @@
+system/waypoint_logger
+/home/lappy/f110-2019-a/devel/.private/waypoint_logger/share/waypoint_logger/cmake/waypoint_loggerConfig-version.cmake /home/lappy/f110-2019-a/devel/share/waypoint_logger/cmake/waypoint_loggerConfig-version.cmake
+/home/lappy/f110-2019-a/devel/.private/waypoint_logger/share/waypoint_logger/cmake/waypoint_loggerConfig.cmake /home/lappy/f110-2019-a/devel/share/waypoint_logger/cmake/waypoint_loggerConfig.cmake
+/home/lappy/f110-2019-a/devel/.private/waypoint_logger/lib/pkgconfig/waypoint_logger.pc /home/lappy/f110-2019-a/devel/lib/pkgconfig/waypoint_logger.pc
